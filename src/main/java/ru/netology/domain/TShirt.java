@@ -6,7 +6,6 @@ import java.util.Objects;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
-
 public class TShirt extends Product {
     private String color;
     private String size;

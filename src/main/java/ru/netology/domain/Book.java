@@ -1,13 +1,11 @@
 package ru.netology.domain;
 
-
+import java.util.Objects;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import java.util.Objects;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
-@EqualsAndHashCode
-
 public class Book extends Product {
     private String author;
     private int pages;

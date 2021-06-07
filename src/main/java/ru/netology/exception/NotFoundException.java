@@ -1,4 +1,4 @@
-package ru.netology.repository;
+package ru.netology.exception;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

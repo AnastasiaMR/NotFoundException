@@ -1,12 +1,10 @@
 package ru.netology.manager;
 
 import lombok.Data;
-import ru.netology.repository.NotFoundException;
+import ru.netology.exception.NotFoundException;
 import ru.netology.repository.ProductRepository;
 
-
 @Data
-
 public class ProductManager {
     private ProductRepository repository;
 

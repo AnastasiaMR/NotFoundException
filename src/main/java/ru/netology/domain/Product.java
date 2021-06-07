@@ -1,7 +1,6 @@
 package ru.netology.domain;
 
 import lombok.Data;
-
 import java.util.Objects;
 
 @Data
